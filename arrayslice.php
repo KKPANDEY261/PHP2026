@@ -5,6 +5,33 @@ $c=array_slice($a,2,5);
 $d=array_slice($a,-6,3);
 //print_r($b);
 //print_r($c);
+//print_r($d);
+ $st=array(
+        array("ram1","21","kolkata",8953697564),
+        array("shyam2",25,"mumbai",5856985698),
+        array("ram3","21","kolkata",8953697564), 
+        array("shyam4",25,"mumbai",5856985698),
+        array("ram5","21","kolkata",8953697564),
+        array("shyam6",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564),
+        array("shyam",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564),
+        array("shyam10",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564), 
+        array("shyam",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564),
+        array("shyam",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564),
+        array("shyam",25,"mumbai",5856985698),       
+        array("ram","21","kolkata",8953697564),
+        array("shyam",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564), 
+        array("shyam",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564),
+        array("shyam",25,"mumbai",5856985698),
+        array("ram","21","kolkata",8953697564),
+        array("shyam",25,"mumbai",5856985698)
+    );
+$d=array_slice($st[2],1,3);
 print_r($d);
-
 ?>
