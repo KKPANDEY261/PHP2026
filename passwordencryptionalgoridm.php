@@ -3,5 +3,8 @@ echo"PASSWORD_BCRYPT".'<br>';
 echo"PASSWORD_ARGON2I".'<br>';
 echo"PASSWORD_ARGON2ID".'<br>';
 echo"PASSWORD_DEFAULT".'<br>';
-
+$b=hash('SHA256',$a);
+hash_equals($b,hash('SHA256',$c));
+password_hash($a,PASSWORD_ARGON2I);
+password_verify();
 ?>
